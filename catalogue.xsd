@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Projet final - Faty GUEYE, née le 07/01/2002 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titre" type="xs:string"/>
+        <xs:element name="auteur" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="annee" type="xs:integer"/>
+        <xs:element name="prix" type="xs:decimal"/>
+      </xs:sequence>
+      <xs:attribute name="cote" type="xs:string" use="required"/>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="roman"/>
+            <xs:enumeration value="essai"/>
+            <xs:enumeration value="poesie"/>
+            <xs:enumeration value="theatre"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="disponible" type="xs:boolean" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

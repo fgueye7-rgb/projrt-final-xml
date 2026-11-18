@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Faux Fichier 2 - Faty GUEYE, née le 07/01/2002 -->
+<!-- Il manque "prix" et "type" n'est pas autorisé -->
+<document cote="DOC002" type="bande-dessinee" disponible="true">
+  <titre>Les Contes de Dakar</titre>
+  <auteur>Moussa Diallo</auteur>
+  <annee>2020</annee>
+</document>

@@ -1,0 +1,19 @@
+Requetes XPath sur catalogue.xml - Faty GUEYE, née le 07/01/2002
+
+1. Tous les titres des documents :
+//document/titre
+
+2. Documents publies apres 2015 :
+//document[annee > 2015]/titre
+
+3. Documents dont le prix est inferieur a 5000 :
+//document[prix < 5000]/titre
+
+4. Documents disponibles :
+//document[@disponible="true"]/titre
+
+5. Documents d'un auteur donne (exemple : Binta Seck) :
+//document[auteur="Binta Seck"]/titre
+
+6. Nombre total de documents :
+count(//document)

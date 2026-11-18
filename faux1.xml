@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Faux Fichier 1 - Faty GUEYE, née le 07/01/2002 -->
+<!-- Il manque l'attribut "cote" et "annee" n'est pas un nombre -->
+<document type="roman" disponible="true">
+  <titre>Le Jardin des Sables</titre>
+  <auteur>Binta Seck</auteur>
+  <annee>deux mille douze</annee>
+  <prix>3500</prix>
+</document>
